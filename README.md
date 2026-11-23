@@ -2,7 +2,7 @@
 
 拾额是一个在 Windows 本机运行的模型网关。把自己在各个公益站的 API 地址、密钥和模型填入拾额后，DSH 可以通过一组本机地址和密钥使用这些模型。
 
-**[下载 Windows x64 最新版](https://github.com/ren3333/relay-desk/releases/latest)**　·　[阅读 1.1.8 中文指南](https://github.com/ren3333/relay-desk/releases/download/v1.1.8/RelayDesk-1.1.8-guide-zh-CN.md)
+**[下载 Windows x64 最新版](https://github.com/ren3333/relay-desk/releases/latest)**　·　[阅读 1.1.9 中文指南](https://github.com/ren3333/relay-desk/releases/download/v1.1.9/RelayDesk-1.1.9-guide-zh-CN.md)
 
 ## 第一次使用
 
@@ -10,6 +10,10 @@
 2. 在浏览器打开的本机管理页进入「站点目录」，查看注册条件和领取方式。注册后，到站方控制台取得自己的模型密钥。
 3. 在「接入与路由」填写站点地址、密钥，读取并添加所需模型，勾选「启用此站点的模型路由」后保存。
 4. 打开「DSH 接入说明」，将本机地址、访问密钥和统一模型名复制到 DSH，协议选 OpenAI Chat Completions。
+
+## 检查更新
+
+打开管理页即可查看新版提示，点击「检查更新」可手动检查。发现新版后可一键下载、校验并在原路径重启。旧版用户需要先手动安装一次 1.1.9。
 
 ## 免费模型预设
 
@@ -29,4 +33,4 @@
 
 ## 下载文件
 
-发行页提供 Windows 压缩包、可单独下载的中文使用指南和 `SHA256SUMS.txt`。压缩包内附指南和离线站点目录。1.1.8 已在 Windows 11 x64 验证，程序未做 Windows 代码签名。
+发行页提供 Windows 压缩包、可单独下载的中文使用指南和 `SHA256SUMS.txt`。压缩包内附指南和离线站点目录。1.1.9 已在 Windows 11 x64 验证，程序未做 Windows 代码签名。
