@@ -2,7 +2,7 @@
 
 拾额是一个在 Windows 本机运行的模型网关。把自己在各个公益站的 API 地址、密钥和模型填入拾额后，DSH 可以通过一组本机地址和密钥使用这些模型。
 
-**[下载 Windows x64 最新版](https://github.com/ren3333/relay-desk/releases/latest)**　·　[阅读 1.1.5 中文指南](https://github.com/ren3333/relay-desk/releases/download/v1.1.5/RelayDesk-1.1.5-guide-zh-CN.pdf)
+**[下载 Windows x64 最新版](https://github.com/ren3333/relay-desk/releases/latest)**　·　[阅读 1.1.6 中文指南](https://github.com/ren3333/relay-desk/releases/download/v1.1.6/RelayDesk-1.1.6-guide-zh-CN.pdf)
 
 ## 第一次使用
 
@@ -21,4 +21,4 @@
 
 ## 下载文件
 
-发行页提供 Windows 压缩包、可单独下载的中文 PDF 和 `SHA256SUMS.txt`。压缩包内附指南和离线站点目录。1.1.5 已在 Windows 11 x64 验证，程序未做 Windows 代码签名。
+发行页提供 Windows 压缩包、可单独下载的中文 PDF 和 `SHA256SUMS.txt`。压缩包内附指南和离线站点目录。1.1.6 已在 Windows 11 x64 验证，程序未做 Windows 代码签名。
