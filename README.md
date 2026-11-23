@@ -2,7 +2,7 @@
 
 拾额是一个在 Windows 本机运行的模型网关。把自己在各个公益站的 API 地址、密钥和模型填入拾额后，DSH 可以通过一组本机地址和密钥使用这些模型。
 
-**[下载 Windows x64 最新版](https://github.com/ren3333/relay-desk/releases/latest)**　·　[阅读 1.1.6 中文指南](https://github.com/ren3333/relay-desk/releases/download/v1.1.6/RelayDesk-1.1.6-guide-zh-CN.pdf)
+**[下载 Windows x64 最新版](https://github.com/ren3333/relay-desk/releases/latest)**　·　[阅读 1.1.7 中文指南](https://github.com/ren3333/relay-desk/releases/download/v1.1.7/RelayDesk-1.1.7-guide-zh-CN.md)
 
 ## 第一次使用
 
@@ -11,9 +11,13 @@
 3. 在「接入与路由」填写站点地址、密钥，读取并添加所需模型，勾选「启用此站点的模型路由」后保存。
 4. 打开「DSH 接入说明」，将本机地址、访问密钥和统一模型名复制到 DSH，协议选 OpenAI Chat Completions。
 
+## 本机接入
+
+内置 Magpie 和 WorkBuddy 国内版接入项。连接本机 Magpie 并选择模型，就能通过拾额的统一地址调用。WorkBuddy 支持读取本机已登录账户的积分和签到状态，并可加入一键签到。每位用户使用自己的账号与权限。
+
 ## 日常使用
 
-- **合并模型与切换站点**　把不同站点的模型映射到同一个名称，设置优先级。当前站明确报告额度耗尽时，拾额会尝试下一个已启用的站点。
+- **合并模型与切换站点**　把不同站点的模型映射到同一个名称，设置优先级。遇到余额耗尽、连接失败或暂时性的服务故障，拾额会尝试同一模型的后备站点。健康检查会暂时跳过故障站，站点恢复后重新参与路由。
 - **领取额度**　「一键签到」适用于已配置个人访问令牌且支持自动签到的 New API 站点。需要人工验证或群内操作时，在该站的「领取方式」查看步骤。
 - **添加站点**　可以自行添加，或使用软件内的 JSON 模板批量导入公开信息。
 
@@ -21,4 +25,4 @@
 
 ## 下载文件
 
-发行页提供 Windows 压缩包、可单独下载的中文 PDF 和 `SHA256SUMS.txt`。压缩包内附指南和离线站点目录。1.1.6 已在 Windows 11 x64 验证，程序未做 Windows 代码签名。
+发行页提供 Windows 压缩包、可单独下载的中文使用指南 和 `SHA256SUMS.txt`。压缩包内附指南和离线站点目录。1.1.7 已在 Windows 11 x64 验证，程序未做 Windows 代码签名。
